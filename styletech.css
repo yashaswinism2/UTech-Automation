@@ -1,5 +1,4 @@
 
-
 nav{
     position: fixed;
     z-index: 10;
@@ -86,7 +85,6 @@ nav .links{
                 width:auto;
                 height: auto;
                 flex-direction: column;
-               
                 background-color: rgba(0,0,0,0.8);
                 overflow: hidden;
                 transition: all .5s ease-in-out;
@@ -107,9 +105,6 @@ nav .links{
                     opacity: 0;
                 }
         }
-
-
-
 
 
 #center{
@@ -145,7 +140,7 @@ nav .links{
 
 
 
-#dec{
+/*#dec{
     margin-left: 320px;
 }
 
@@ -153,7 +148,7 @@ nav .links{
 #decc{
     
     margin-left: 95px;
-}
+}*/
 .colo{
     color:black;
     text-align: left;
@@ -280,7 +275,7 @@ html {
 @media (min-width:768px){
     .learn{
         text-align: center;
-        margin-left: 150px;
+        margin-left: 50px;
     }
     .teach{
         text-align: center;
@@ -328,6 +323,14 @@ html {
     .teach{
         margin-left: 430px;
         text-align: center;
+    }
+    
+    .services{
+        font-size: 30px;
+    }
+    
+    .subhead{
+        font-size:20px;
     }
 }
 
