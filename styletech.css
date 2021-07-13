@@ -25,7 +25,7 @@ nav .links{
    float: right;
     padding: 0;
     margin: 0;
-    width: 60%;
+    width: 45%;
     height: 100%;
     display: flex;
    /* justify-content: space-around;*/
@@ -151,13 +151,13 @@ nav .links{
 }*/
 .colo{
     color:black;
-    text-align: left;
+    text-align: center;
     
 }
 
 .colour{
     color:#8b93cd;
-    text-align: left;
+    text-align: center;
 }
 
 .row{
@@ -218,9 +218,7 @@ html {
 
 
 @media (min-width:320px){
-    /*.rowdy{
-        width: 320px;
-         }*/
+   
          .image{
              max-width: 100%;
              margin-top: -180px;
@@ -239,14 +237,19 @@ html {
          
          .teach{
              text-align: center;
-             margin-right: 90px;
+             margin-left: auto;
+             margin-right: auto;
+             width:50%;
          }
          
          .learn{
              text-align: center;
-             margin-right: 90px;
+              margin-left: auto;
+             margin-right: auto;
+             width:50%;
          }
          
+        
          
 }
 
@@ -261,7 +264,7 @@ html {
         font-style: italic;
     }
     .text{
-        font-size: 12px;
+        font-size: 20px;
     }
     
     .main{
@@ -270,18 +273,21 @@ html {
     .backc{
         width: 100%;
     }
+    
 }
 
 @media (min-width:768px){
     .learn{
-        text-align: center;
-        margin-left: 50px;
+     margin-left: 250px;
     }
     .teach{
-        text-align: center;
-        margin-left: 150px;
+     
+              margin-left: 250px;
     }
     
+    .captions{
+      margin-left: -10px;
+    }
     .main{
         font-size: 30px;
        
@@ -295,21 +301,21 @@ html {
 }
 
 @media (min-width:1025px){
-    .teach{
-        margin-left: 30px;
-        text-align: center;
-    }
-    .learn{
-        margin-left: 30px;
-        text-align: center;
-    }
+    
     .image{
-        margin-top: -300px;
+        margin-top: -400px;
         width: 100%;
     }
-    .nav .links a li{
-        padding: 4px;
-    }
+    nav .links{
+   float: right;
+    padding: 0;
+    margin: 0;
+    width: 50%;
+    height: 100%;
+    display: flex;
+   /* justify-content: space-around;*/
+    align-items: center;
+}
 }
 
 @media (min-width:1201px){
